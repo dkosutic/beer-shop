@@ -1,0 +1,38 @@
+.custom-table {
+    table-layout: auto;
+    width: 100%;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    border-spacing: 0;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+.custom-table tbody tr {
+    height: 45px;
+    color: rgba(0, 0, 0, .87);
+}
+
+.custom-table thead tr {
+    color: rgba(0, 0, 0, .5);
+    height: 55px;
+}
+
+.custom-img-small {
+    height: 50px;
+    margin-top: 2px;
+}
+
+.custom-input-number {
+    width: 70px;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-left: 20px;
+    text-align: left;
+    border-bottom-color: rgba(0, 0, 0, .12);
+}

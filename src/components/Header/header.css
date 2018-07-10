@@ -1,0 +1,18 @@
+.custom-header {
+    text-align: center;
+    height: 20vh;
+    color: #eee;
+    background: url('../../assets/img/dark_wood.png');
+    font-family: 'Summit';
+}
+
+.custom-title {
+    line-height: 20vh;
+}
+
+@font-face {
+    font-family: 'Summit';
+    font-style: normal;
+    font-weight: 400;
+    src: local('SummitMedium-Display'), local('SummitMedium Display'), url(../../assets/fonts/SummitMedium-Display.otf) format('opentype');
+}

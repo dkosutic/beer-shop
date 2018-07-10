@@ -1,0 +1,27 @@
+.custom-grid {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eee;
+}
+
+.custom-grid-item {
+    flex: 25%;
+    max-width: 25%;
+    box-sizing: border-box;
+    display: block;
+    padding: 15px;
+}
+
+@media screen and (max-width: 920px) {
+    .custom-grid-item {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .custom-grid-item {
+        flex: 100%;
+        max-width: 100%;
+    }
+}

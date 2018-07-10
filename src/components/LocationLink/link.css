@@ -1,0 +1,21 @@
+.custom-button-location {
+    font-family: 'Summit';
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    border-radius: 0;
+    line-height: 1.875rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dddbda;
+    cursor: pointer;
+    border-color: #dddbda;
+    background-color: #fff;
+    color: #0070d2;
+}
+
+.custom-button-location {
+    outline-style: none;
+}

@@ -1,0 +1,44 @@
+.custom-layout {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eee;
+}
+
+.custom-layout-item {
+    flex: 80%;
+    max-width: 80%;
+    width: 80%;
+    box-sizing: border-box;
+    display: block;
+    padding: 15px;
+}
+
+.custom-layout-info-panel {
+    flex: 20%;
+    max-width: 20%;
+    box-sizing: border-box;
+    display: block;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.panel-footer {
+    margin-top: 20vh;
+}
+
+.empty {
+    font-family: 'Summit';
+    color: #0070d2;
+    padding-top: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 920px) {
+    .custom-layout-item {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .custom-layout-info-panel {
+        display: none;
+    }
+}

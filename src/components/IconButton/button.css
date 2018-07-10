@@ -1,0 +1,64 @@
+.custom-button-icon {
+    position: relative;
+    display: inline-block;
+    padding: 0.4rem;
+    background: #fff;
+    border: 1px solid #dddbda;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.custom-button-icon:hover {
+    background-color: #f4f6f9;
+}
+
+.custom-button-icon[disabled] {
+    background: #c9c7c5;
+    border-color: #c9c7c5;
+    color: #fff;
+    cursor: default;
+}
+
+.custom-button-icon:focus {
+    outline-style: none;
+}
+
+.custom-icon-small {
+    padding: 0.2rem;
+}
+
+.custom-icon-medium {
+    padding: 0.3rem;
+}
+
+.custom-icon-big {
+    padding: 0.5rem;
+}
+
+.custom-icon-primary svg {
+    fill: #005fb2;
+}
+
+.custom-icon-neutral svg {
+    fill: #000;
+}
+
+.custom-icon-bloody svg {
+    fill: #c23934;
+}
+
+.custom-icon-orange svg {
+    fill: #ff9a3c;
+}
+
+.custom-icon-green svg {
+    fill: #04844b;
+}
+
+.custom-icon-green:active {
+    background-color: #04844b;
+}
+
+.custom-icon-green:active svg {
+    fill: #fff;
+}

@@ -1,0 +1,72 @@
+.custom-button {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-radius: 2px;
+    line-height: 1.875rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dddbda;
+    cursor: pointer;
+    font-family: 'Summit';
+}
+
+.custom-button:focus {
+    outline-style: none;
+}
+
+.custom-button[disabled],
+.custom-button[disabled]:hover {
+    background: #c9c7c5;
+    border-color: #c9c7c5;
+    color: #fff;
+    cursor: default;
+}
+
+.custom-button-neutral {
+    border-color: #dddbda;
+    background-color: #fff;
+    color: #0070d2;
+}
+
+.custom-button-neutral:hover {
+    background-color: #f4f6f9;
+}
+
+.custom-button-primary {
+    background-color: #0070d2;
+    border-color: #dddbda;
+    color: #fff;
+}
+
+.custom-button-primary:hover {
+    background-color: #005fb2;
+}
+
+.custom-button-bloody {
+    background-color: #c23934;
+    border-color: #dddbda;
+    color: #fff;
+}
+
+.custom-button-bloody:hover {
+    background-color: #a61a14;
+}
+
+.custom-button-green {
+    background-color: #fff;
+    border-color: #dddbda;
+    color: #04844b;
+}
+
+.custom-button-green:hover {
+    background-color: #f4f6f9;
+}
+
+.custom-button-green:active {
+    background-color: #04844b;
+    color: #fff;
+}

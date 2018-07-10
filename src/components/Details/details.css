@@ -1,0 +1,36 @@
+.custom-details {
+    padding: 20px;
+    display: block;
+    overflow-x: auto;
+}
+
+.custom-detail-name {
+    flex: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Segoe UI Light';
+    text-align: center;
+}
+
+.custom-details-header {
+    vertical-align: top;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-details-text {
+    text-align: center;
+    vertical-align: top;
+    color: rgba(0, 0, 0, .54);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-detail-name h1 {
+    margin-top: 0px;
+}
+
+.custom-details-img {
+    max-height: 200px;
+}

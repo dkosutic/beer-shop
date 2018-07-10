@@ -1,0 +1,24 @@
+.custom-card-controls {
+    overflow: visible;
+    z-index: 10;
+    height: 0px;
+    position: relative;
+}
+
+.custom-cc-left {
+    z-index: 20;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+.custom-cc-right {
+    z-index: 20;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+
+.custom-cc-right-second {
+    right: 40px;
+}
