@@ -11,6 +11,7 @@ import { connect } from "react-redux";
 import * as actionCreators from "../../redux/actions/actionCreators";
 import { withRouter } from "react-router-dom";
 import { NotFound, Empty, Broken, Loading } from "../../constants/app/index";
+import beers from "../../constants/data";
 
 class Layout extends Component {
   constructor(props) {
@@ -85,28 +86,17 @@ class Layout extends Component {
     );
   }
   componentDidMount() {
-    fetch("https://api.punkapi.com/v2/beers")
-      .then(function(response) {
-        if (response.ok) {
-          return response.json();
-        } else {
-          throw new Error("No beers available at the moment...");
-        }
-      })
-      .then(data => {
-        this.setState({ isLoading: false });
-        let beers = data.map(element => {
-          return {
-            title: element.name,
-            imageUrl: element.image_url,
-            id: element.id,
-            text: element.description,
-            favorite: false
-          };
-        });
-        this.props.loadItems(beers);
-      })
-      .catch(error => this.setState({ isLoading: false, error: true }));
+    this.setState({ isLoading: false });
+    let data = beers.map(element => {
+      return {
+        title: element.name,
+        imageUrl: element.image_url,
+        id: element.id,
+        text: element.description,
+        favorite: false
+      };
+    });
+    this.props.loadItems(data);
   }
 }
 Layout.defaultProps = {
